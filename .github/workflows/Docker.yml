@@ -31,6 +31,6 @@ jobs:
         # Push is a shorthand for --output=type=registry
         push: true
         # List of tags
-        tags: audalio.devops@gmail.com/go_ci:${{ github.ref_name }}
+        tags: audaliodevops/go_ci:${{ github.ref_name }}
         # GitHub Token used to authenticate against a repository for Git context
         # github-token: # optional, default is ${{ github.token }}
